@@ -44,3 +44,64 @@
 #controls button:hover {
     background-color: #0055aa;
 }
+
+h2, h3 {
+    color: #003366;
+}
+
+#form-container {
+    margin: 20px auto;
+    padding: 15px;
+    width: 400px;
+    background-color: #f9f9f9;
+    border: 2px solid #444;
+    border-radius: 8px;
+}
+
+#form-container input[type="number"] {
+    padding: 6px;
+    width: 120px;
+    margin-left: 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+#form-container input[type="submit"] {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#form-container input[type="submit"]:hover {
+    background-color: #0055aa;
+}
+
+#table-container {
+    margin: 30px auto;
+    width: fit-content;
+}
+
+#table-container table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#table-container th,
+#table-container td {
+    border: 1px solid #333;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+#table-container th {
+    background-color: #003366;
+    color: white;
+}
+
+#table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
